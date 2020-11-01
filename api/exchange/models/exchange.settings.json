@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exchanges",
+  "info": {
+    "name": "Exchange"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "first_historical_data": {
+      "type": "datetime"
+    },
+    "last_historical_data": {
+      "type": "datetime"
+    },
+    "website": {
+      "type": "string"
+    },
+    "twitter_url": {
+      "type": "string"
+    },
+    "blog_url": {
+      "type": "string"
+    },
+    "fee_url": {
+      "type": "string"
+    },
+    "chat_url": {
+      "type": "string"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "date_launched": {
+      "type": "datetime"
+    },
+    "notice": {
+      "type": "string"
+    },
+    "is_hidden": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cryptocurrencies",
+  "info": {
+    "name": "Cryptocurrency"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "symbol": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "number_market_pairs": {
+      "type": "string"
+    },
+    "date_added": {
+      "type": "datetime"
+    },
+    "max_supply": {
+      "type": "string"
+    },
+    "circulating_supply": {
+      "type": "string"
+    },
+    "total_supply": {
+      "type": "string"
+    },
+    "cmc_rank": {
+      "type": "string"
+    },
+    "last_updated": {
+      "type": "datetime"
+    },
+    "website": {
+      "type": "string"
+    },
+    "twitter_url": {
+      "type": "string"
+    },
+    "technical_doc_url": {
+      "type": "string"
+    },
+    "reddit_url": {
+      "type": "string"
+    },
+    "chat_url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "notice": {
+      "type": "string"
+    }
+  }
+}

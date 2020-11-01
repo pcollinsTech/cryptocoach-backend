@@ -1,0 +1,92 @@
+{
+  "kind": "collectionType",
+  "collectionName": "what_is",
+  "info": {
+    "name": "What Is"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "opening_paragraph": {
+      "type": "richtext"
+    },
+    "first_paragraph": {
+      "type": "richtext"
+    },
+    "first_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "second_paragraph": {
+      "type": "richtext"
+    },
+    "second_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "third_paragraph": {
+      "type": "richtext"
+    },
+    "third_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "fourth_paragraph": {
+      "type": "richtext"
+    },
+    "fourth_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "fifth_paragraph": {
+      "type": "richtext"
+    },
+    "fifth_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
