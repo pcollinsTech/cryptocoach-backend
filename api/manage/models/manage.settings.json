@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "what_is",
+  "collectionName": "manages",
   "info": {
-    "name": "What Is Article"
+    "name": "Manage Crypto Article"
   },
   "options": {
     "increments": true,
@@ -85,26 +85,25 @@
       "plugin": "upload",
       "required": false
     },
-    "slug": {
-      "type": "string"
-    },
-    "purple_button_link": {
-      "type": "string",
-      "required": true
-    },
-    "purple_button_title": {
-      "type": "string"
-    },
-    "blue_button_link": {
-      "type": "string"
-    },
-    "blue_button_title": {
+    "orange_button_title": {
       "type": "string"
     },
     "orange_button_link": {
       "type": "string"
     },
-    "orange_button_title": {
+    "blue_button_title": {
+      "type": "string"
+    },
+    "blue_button_link": {
+      "type": "string"
+    },
+    "purple_button_title": {
+      "type": "string"
+    },
+    "purple_button_link": {
+      "type": "string"
+    },
+    "slug": {
       "type": "string"
     }
   }
